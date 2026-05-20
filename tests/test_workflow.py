@@ -4,7 +4,7 @@ import json
 import subprocess
 import sys
 
-from cantilever_backtest_local.engine import (
+from corrosion_backtest_local.engine import (
     LocalHarness,
     benchmark,
     export_demo_pack,
@@ -12,7 +12,7 @@ from cantilever_backtest_local.engine import (
     run_suite_and_write,
     verify_outputs,
 )
-from cantilever_backtest_local.fixtures import init_store, load_config, load_scenarios
+from corrosion_backtest_local.fixtures import init_store, load_config, load_scenarios
 
 
 def test_fixture_scale(tmp_path):
@@ -54,7 +54,7 @@ def test_jsonl_tool_loop(tmp_path):
 
 def test_benchmark_and_cli_smoke():
     result = subprocess.run(
-        [sys.executable, "-m", "cantilever_backtest_local.cli", "init-demo", "--force"],
+        [sys.executable, "-m", "corrosion_backtest_local.cli", "init-demo", "--force"],
         check=True,
         capture_output=True,
         text=True,

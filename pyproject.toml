@@ -1,5 +1,5 @@
 [project]
-name = "cantilever-backtest-local"
+name = "corrosion-backtest-local"
 version = "0.1.0"
 description = "Offline predictive-maintenance forecast calibration for ultrasonic asset-health histories."
 readme = "README.md"
@@ -18,7 +18,7 @@ dev = [
 ]
 
 [project.scripts]
-cantilever-backtest = "cantilever_backtest_local.cli:main"
+corrosion-backtest = "corrosion_backtest_local.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.9.0,<0.10.0"]

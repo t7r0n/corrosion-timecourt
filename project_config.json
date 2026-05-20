@@ -1,13 +1,13 @@
 {
-  "repo": "cantilever-backtest-local",
-  "package": "cantilever_backtest_local",
-  "cli": "cantilever-backtest",
-  "company": "Gecko Robotics",
-  "title": "Cantilever Backtest Local",
+  "repo": "corrosion-backtest-local",
+  "package": "corrosion_backtest_local",
+  "cli": "corrosion-backtest",
+  "company": "Corrosion Backtest Local",
+  "title": "Corrosion Backtest Local",
   "tagline": "Offline predictive-maintenance forecast calibration for ultrasonic asset-health histories.",
   "problem": "Industrial asset-health forecasts need auditable calibration before they can drive Navy, energy, and manufacturing maintenance decisions.",
-  "project": "cantilever-backtest",
-  "plan_slug": "gecko-robotics",
+  "project": "corrosion-backtest",
+  "plan_slug": "corrosion-backtest",
   "scenario": "asset",
   "fixture_count": 180,
   "clean_count": 45,
@@ -25,8 +25,6 @@
   ],
   "wow": "A decision-date slider proves whether a corrosion forecast would have held up once actual inspection data arrived.",
   "sources": [
-    "https://www.geckorobotics.com/sustainment",
-    "https://techcrunch.com/2026/03/17/gecko-robotics-lands-the-largest-u-s-navy-robotics-deal-yet/",
-    "https://breakingdefense.com/2026/03/navy-taps-gecko-robotics-for-ship-scaling-robots-to-identify-repairs-in-pacific-fleet/"
+    "local-synthetic-fixture"
   ]
 }
